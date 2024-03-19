@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<style>
+    .cards-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.card img {
+  width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+}
+.card {
+  margin: 0 0.5em;
+  width: 20.875em;
+  height: 25.875em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  border-radius: 10px;
+}
+.carousel-inner {
+  padding: 1em;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #5e1111;
+  width: 5vh;
+  height: 5vh;
+  margin-left: 8%;
+  margin-right: 8%;
+  border-radius: 50%;
+  top: 30%;
+  transform: translateY(-50%);
+}
+@media (min-width: 768px) {
+  .card img {
+    height: 11em;
+  }
+}
+
+
+
+.container {
+  position: relative;
+  font-family: sans-serif;
+}
+
+.container::before, .container::after {
+  content: "";
+  background-color: #fab5704c;
+  position: absolute;
+}
+
+.container::before {
+  border-radius: 50%;
+  width: 6rem;
+  height: 6rem;
+  top: 30%;
+  right: 7%;
+}
+
+.container::after {
+  content: "";
+  position: absolute;
+  height: 3rem;
+  top: 8%;
+  right: 5%;
+  border: 1px solid;
+}
+
+.container .box {
+  width: 11.875em;
+  height: 10.875em;
+  padding: 1rem;
+  /* background-color: rgba(255, 255, 255, 0.074); */
+  /* border: 1px solid rgba(255, 255, 255, 0.222); */
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  border-radius: .7rem;
+  transition: all ease .3s;
+}
+
+.container .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container .box .title {
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: .1em
+}
+
+.container .box div strong {
+  display: block;
+  margin-bottom: .5rem;
+}
+
+/* .container .box div p {
+  margin: 0;
+  font-size: .9em;
+  font-weight: 300;
+  letter-spacing: .1em;
+} */
+
+.container .box div span {
+  font-size: .7rem;
+  font-weight: 300;
+}
+
+.container .box div span:nth-child(3) {
+  font-weight: 500;
+  margin-right: .2rem;
+}
+
+.container .box:hover {
+  box-shadow: 0px 0px 20px 1px #ffbb763f;
+  border: 1px solid rgba(255, 255, 255, 0.454);
+}
+</style>
+
+
+
+</head>
+<body>
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="cards-wrapper">
+      <div class="card" style="background-color:#012127" >
+        <a href="book.html" >
+        <img src="E:\CSS\Book website\im\30 Cutest Children’s Book Cover Designs.jpeg" class="card-img-top" alt="..."  style=" height: 20.875em; " >
+        <div class="card-body mt-0" style="height: 10%;">
+          <h4 style="text-align: center;color: #ffffff;font-family: 'DM Serif Text', serif ; " class="card-title ">  Classic children's literature</h4>
+        </a>
+        </div>
+      </div>
+      <div class="card d-none d-md-block" style="background-color: #361d2f;">
+       <a href="Picture book.html" >
+        <img src="E:\CSS\Book website\im\Lily's lost purr.jpeg" class="card-img-top" alt="..."  style=" height: 20.875em; "   >
+        <div class="card-body">
+          <h4 style="text-align: center; color: #fefffe;font-family: 'DM Serif Text', serif;" class="card-title "> Picture books </h4>
+        </a>
+        </div>
+      </div>
+      <div class="card d-none d-md-block" style="background-color:#49402e;" >
+       <a href="Fairytales & folklore.html" >
+        <img src="E:\CSS\Book website\im\Kitchen Witch_ Food, Folklore, and Fairy Tale.jpeg" class="card-img-top" alt="..."  style=" height: 20.875em; "   >
+        <div class="card-body">
+          <h4 style="text-align: center; color: #ffffff;font-family: 'DM Serif Text', serif;" class="card-title"> Fairytales & folklore</h4>
+                   </a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="carousel-item">
+      <div class="cards-wrapper">
+        <div class="card" style="background-color: #78845e;">
+          <a href="Fantasy fiction.html" >
+          <img src="E:\CSS\Book website\im\23 science fiction and fantasy.jpeg" class="card-img-top" alt="..." style=" height: 20.875em; "    >
+          <div class="card-body">
+            <h4 style="text-align: center; color: #ffffff;font-family: 'DM Serif Text', serif;" class="card-title">Fantasy fiction</h4>
+           
+           </a>
+          </div>
+        </div>
+        <div class="card d-none d-md-block" style="    background-color: #e43828;">
+          <a href="Historical fiction.html" >
+          <img src="E:\CSS\Book website\im\HistoricalFiction.png" class="card-img-top" alt="..."  style=" height: 20.875em; "   >
+          <div class="card-body">
+            <h4 style="text-align: center; color: #ffffff;font-family: 'DM Serif Text', serif;" class="card-title">Historical fiction</h4>
+           
+          </a>
+          </div>
+        </div>
+        <div class="card d-none d-md-block" style=" background-color: #c4ae9a;">
+          <a href="Realistic fiction.html" >
+          <img src="E:\CSS\Book website\im\Sacred Plants of India.png" class="card-img-top" alt="..."  style=" height: 20.875em; "   >
+          <a class="card-body">
+            <h4 style="text-align: center;color: #27411d;font-family: 'DM Serif Text', serif;" class="card-title"> Realistic fiction</h4>
+           
+          </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="cards-wrapper">
+        <div class="card">
+         <a href="#" >
+          <img src="E:\CSS\Book website\im\Kitchen Witch_ Food, Folklore, and Fairy Tale.jpeg" class="card-img-top"   alt="..." style=" height: 20.875em; "  >
+          <div class="card-body">
+            <h4 style="text-align: center;" class="card-title">Card title</h4>
+                       </a>
+          </div>
+        </div>
+        <div class="card d-none d-md-block">
+          <img src="E:\CSS\Book website\im\Kitchen Witch_ Food, Folklore, and Fairy Tale.jpeg" class="card-img-top"   alt="..." style=" height: 20.875em; "  >
+          <div class="card-body">
+            <h4 style="text-align: center;" class="card-title">Card title</h4>
+          </div>
+        </div>
+        <div class="card d-none d-md-block">
+          
+          <a href="#" >
+          <img src="E:\CSS\Book website\im\Kitchen Witch_ Food, Folklore, and Fairy Tale.jpeg" class="card-img-top"   alt="..." style=" height: 20.875em; "  >
+          <div class="card-body">
+            <h4 style="text-align: center;" class="card-title">Card title</h4>
+           
+          </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<!-- <section class="card">
+
+    <div class="container">
+        <div class="box">
+            <span class="title">GLASS EFFECT</span>
+            <div>
+                <strong>JOE WATSON SBF</strong>
+                <p>0000 000 000 0000</p>
+                <span>VALID</span> <span>01/28</span>
+            </div>
+        </div>
+    </div>
+</section> -->
+
+
+
+
+</body>
+</html>

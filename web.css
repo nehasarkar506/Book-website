@@ -1,0 +1,562 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-image: linear-gradient(#f3fff8,#e2fae7);
+}
+
+.main
+{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#BAD7E9,#2B3467);
+    background-image: linear-gradient(#f3fff8,#e2fae7);
+}
+
+.main li a:hover
+{
+    border-bottom: 1px solid #0e2702;
+   
+} 
+
+.main li a:hover
+{
+    color: #021e22;
+}
+.image
+{
+    width: 100%;
+    height: 100%;
+    margin-top: 90px;
+  
+    position: relative;
+}
+.image img
+{
+    float: right;
+    width: 230px;
+    height: 300px;
+    border-radius: 7px;
+    position: absolute;
+    margin-top: 90px;
+    box-shadow: 3px 3px 5px rgba(19, 18, 18, 0.459);
+    margin-right: 50px;
+}
+
+.image .first
+{
+    z-index: 3;
+    right: 190px;
+    top:75px;
+}
+
+.image .first:hover
+{
+    box-shadow: 3px 3px 5px #0e384250;
+    width: 300px;
+    height: 400px;
+    cursor: pointer;
+    
+}
+
+.image .second 
+{
+    z-index:2 ;
+    right: 35px;
+    top:130px;
+    cursor: pointer;
+    width: 250px;
+    height: 300px;
+}
+
+.image .second:hover
+{
+    box-shadow: 3px 3px 5px #00000071;
+    z-index: 4;
+    width: 300px;
+    height: 400px;
+    right: 35px;
+    top:50px;
+    cursor: pointer;
+}
+
+.image .third 
+{
+    z-index: 1;
+    right: 300px;
+    width: 250px;
+    height: 300px;
+    top:20px;
+}
+
+.third:hover
+{
+    box-shadow: 3px 3px 5px #1d38107c;
+    z-index: 5;
+    background-color: rgb(66, 4, 4);
+    width: 300px;
+    height: 400px;
+    right: 230px;
+  
+    cursor: pointer;
+}
+
+.text{
+    margin-left: 30px;
+    margin-top: 50px;
+    position: absolute;
+   top:100px;
+   left: 30px;
+}
+.text h1
+{
+    font-size: 80px;
+    color: #2e4d20;
+    font-family: 'Playball', cursive;
+    text-shadow: 2px 2px 5px #3b4d35;
+}
+
+.text p
+{
+    color: #4C4B16;
+    font-size: 20px;
+    text-shadow: 2px 2px 3px #5c5b1e88;
+font-family: 'PT Serif', serif;
+}
+
+h2{
+    font-size:60px;
+    font-family:'DM Serif Text', serif;
+}
+
+
+
+/*==================== cards=====================*/
+
+.cards
+{
+    width: 100%;
+    height:auto;
+}
+
+.cards a
+{
+    text-decoration: none;
+}
+
+.cards h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #002033;
+    color: #0c2202;
+    font-family: 'DM Serif Text', serif;
+    text-shadow: 2px 2px 3px #014d79;
+    text-shadow: 2px 2px 5px #3b4d35a1;
+   font-size: 60px;
+}
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .card img {
+    width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+  }
+  .card {
+    margin: 0 0.5em;
+    width: 20.875em;
+    height: 25.875em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    border-radius: 10px;
+  }
+  .carousel-inner {
+    padding: 1em;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    background-color: #011a03;
+    width: 5vh;
+    height: 5vh;
+    margin-left: 8%;
+    margin-right: 8%;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  @media (min-width: 768px) {
+    .card img {
+      height: 11em;
+    }
+  }
+  
+  
+  
+ 
+  
+ 
+.cd:hover
+{
+    box-shadow: 0px 0px 20px 1px #ffbb763f;
+  border: 1px solid rgba(255, 255, 255, 0.454);
+   
+} 
+
+/*================ About us ========================*/
+.aboutus
+{
+    width: 100%;
+    height: auto;
+}
+
+.aboutus p{
+    font-family: 'PT Serif', serif;  
+    color: #02314d;
+    font-size: 20px;
+}
+
+.aboutus h1{
+   font-family: 'Playball', cursive;
+    color: #02314d;
+    /* color: #0c2202; */
+    font-family: 'DM Serif Text', serif;
+    text-shadow: 3px 3px 3px #014d7970;
+    /* text-shadow: 1px 1px 2px #3b4d35; */
+   font-size: 60px;
+}
+
+.contact 
+{
+    width: 100%;
+    height:auto;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.contact form
+{
+    padding: 10px; 
+    padding-bottom: 10px;   
+    width: auto;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+}
+
+.contact form input
+{
+      
+    width: 100%;
+    background-color: transparent;
+     padding: 20px;
+     margin-right: 20px;
+     border: none;
+     outline: none;
+     color: aliceblue;
+     border-bottom: 1px solid rgb(169, 253, 190);
+
+}
+
+.contact form p
+{
+    color: rgb(196, 255, 211);
+    font-size: 130%;
+}
+
+.contact textarea
+{
+    border: none;
+    outline: none;
+    color: aliceblue;
+    background-color: transparent;
+    width: 95%;
+    border-bottom: 1px solid rgb(165, 255, 192);
+}
+
+input
+{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(179, 253, 185);
+}
+
+.contact button
+{
+font-size: 20px;
+text-align: center;
+border-radius: 20px;
+border:none;
+outline: none;
+width: 50%;
+height: 60%;
+line-height:10%;
+background-color: transparent;
+border-bottom: 1px solid rgb(203, 255, 206);
+color: beige;
+font-family: 'Times New Roman';
+
+}
+button:hover {
+
+                background-color: rgb(175, 252, 188);   
+                color: rgb(1, 22, 6); 
+                box-shadow: 3px 3px 5px rgba(73, 73, 73, 0.349);
+                transform: translate(10px,-5px);
+                cursor: pointer;
+}   
+
+.contact form a{
+    text-decoration: none;
+    color: rgb(175, 252, 188);   
+    font-size: 100%;
+  
+}
+
+.contact form a:hover
+{
+    color: rgb(255, 2, 2);
+   text-decoration: none;
+  text-shadow: 3px 3px 3px rgba(255, 3, 3, 0.37);
+   
+}
+
+
+form
+{
+    padding-bottom: 10px;
+    /* padding-top: 10px; */
+    margin-top: 10px;
+}
+
+.btn:hover{
+    background-color: rgb(221, 253, 222);
+}
+
+
+/*================ media query ============== */
+
+
+@media only screen and (max-width: 1480px) {
+    .text h1{
+        font-size: 60px; 
+    }
+
+    .cd
+    {
+        padding-left: 5%;
+    margin-left: 150px;
+    }
+    .card-img-top
+    {
+        width: 200px;
+        height: 300px;
+    }
+  
+    .text-box
+    {
+        margin-top: 50px !important;
+        padding-top: 0px !important;
+    }
+
+    h3
+    {
+        margin-top: 0% !important;
+        padding: 10%;
+        font-size: 250%;
+    }
+
+  }
+
+  @media only screen and (max-width: 1250px) {
+    .text h1{
+        font-size: 50px;
+      
+    }
+
+    .image a
+    {
+        width: 90px;
+
+    }
+
+    .image img
+    {
+        width: 200px;
+        height: 290px;
+    }
+
+    .image .first
+    {
+        width: 200px;
+        height: 290px;
+    }
+
+    .image .second
+    {
+        width: 200px;
+        height: 290px;
+    }
+
+    .image .third
+    {
+        width: 200px;
+        height: 290px;
+    }
+
+    .image .third:hover
+    {
+    width: 300px;
+    height: 400px;
+    }
+
+    .cd
+    {
+        padding-left:0%;
+    margin-left: 120px;
+    }
+  }
+
+  @media only screen and (max-width: 1142px) {
+    .text h1{
+        font-size: 40px;
+      
+    }
+    .image a
+    {
+        width: 90px;
+
+    }
+
+    .image img
+    {
+        width: 190px;
+        height: 250px;
+    }
+
+    .image .first
+    {
+        width: 190px;
+        height: 250px;
+    }
+
+    .image .second
+    {
+        width: 190px;
+        height: 250px;
+    }
+
+    .image .third
+    {
+        width: 190px;
+        height: 250px;
+    }
+
+    .image .first:hover
+    {
+    width: 250px;
+    height: 300px;
+    }
+
+    .image .second:hover
+    {
+    width: 250px;
+    height: 300px;
+    }
+
+    .image .third:hover
+    {
+    width: 250px;
+    height: 300px;
+    }
+    .text-box
+    {
+        margin-top: 40px !important;
+        padding-top: 0px !important;
+    }
+  
+}
+@media only screen and (max-width: 1022px)
+{
+    .text h1{
+        font-size: 30px;
+      
+    }
+
+    .image img
+    {
+        width: 180px;
+        height: 270px;
+    }
+
+    .image .first
+    {
+        width: 180px;
+        height: 240px;
+    }
+
+    .image .second
+    {
+        width: 180px;
+        height: 240px;
+    }
+
+    .image .third
+    {
+        width: 180px;
+        height: 240px;
+    }
+
+    .image .first:hover
+    {
+    width: 240px;
+    height: 300px;
+    }
+
+    .image .second:hover
+    {
+    width: 240px;
+    height: 300px;
+    }
+
+    .image .third:hover
+    {
+    width: 240px;
+    height: 300px;
+    }
+
+    .image a
+    {
+        width: 90px;
+
+    }
+    .image span
+    {
+        font-size: 13px
+    }
+    .text-box
+    {
+        margin-top: 50px !important;
+        padding-top: 0px !important;
+    }
+
+    .contact   button {
+        font-size: 20px;
+        text-align: center;
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        width: 90%;
+        height: 60%;
+        line-height: 10%;
+        background-color: transparent;
+        border-bottom: 1px solid rgb(203, 255, 206);
+        color: beige;
+        font-family: 'Times New Roman';
+    }
+
+   }
+

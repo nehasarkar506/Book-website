@@ -1,0 +1,22 @@
+body
+{
+    /* background-image: linear-gradient(to bottom right, #f3fff8,#e2e2fa); */
+    background-color: #e2e2fa;
+}
+
+.form
+{
+    width: 800px;
+    height: 650px;
+    margin-left: 30%;
+    margin-top: 8%;
+    border: 1px solid #f3fff8 ;
+    padding: 20px;
+    border-radius: 5px;
+    backdrop-filter: blur(20px);
+}
+
+.form:hover
+{
+    box-shadow:3px 3px 3px #f3fff86e;
+}

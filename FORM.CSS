@@ -1,0 +1,71 @@
+/* .contactus 
+{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.24),rgba(0, 0, 0, 0.288)), url(wp5875123.webp);
+    background-size: cover;
+    border: none;
+    background-color: transparent;
+}
+
+.contactus footer form
+{
+    border: 1px solid black;
+   padding-top: 40px;
+   padding-left: 40px;
+   padding-right: 40px;
+   border-radius: 10px;
+   backdrop-filter: blur(10px);
+}
+
+.contactus footer form:hover
+{
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.363);
+} */
+
+
+.contactus form{
+    color:black;
+    background-image: url(whale1.png);
+    background-repeat: no-repeat;
+    background-position: -50px 50px;
+
+
+}
+
+
+.contactus h1{
+    margin-bottom: 40px;
+}
+
+.contactus form p a
+{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.884);
+}
+
+
+.contactus form a
+{
+    color: rgb(255, 255, 255);
+}
+
+.contactus form input:hover
+{
+            border-bottom: 1px solid gray;
+}
+
+.contactus form button
+{
+    width: 250px;
+   margin-left: 20%;
+   background-color: black;
+   color: aliceblue;
+   border-radius: 20px;
+   box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.322);
+    
+}
+
+.contactus form button:hover
+{
+            transform: translate(-1px,4px);
+}
+

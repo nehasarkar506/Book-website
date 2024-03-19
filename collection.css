@@ -1,0 +1,233 @@
+ @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Lora&family=Righteous&family=Tilt+Prism&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap');
+ 
+ body{
+    background-image: linear-gradient(#f3fff8,#eaf9ed);
+}
+
+.animation h1{
+    font-size: 3rem;
+    color: #2e4d20;
+    font-family: 'Cinzel', serif;
+    text-shadow: 2px 2px 5px #3b4d35;
+}
+
+
+.cards
+{
+    width: 100%;
+    height:auto;
+    margin-top: 70px;
+    }
+
+    .collection h2{
+    color: #0c2202;
+    font-family: 'Cinzel', serif;
+    text-shadow: 2px 2px 5px #3b4d35a1;
+}
+
+p{
+    font-size: 15px;
+    font-family: 'PT Serif', serif;
+    }
+
+.cd img
+{
+    border-radius: 10px;
+     
+    background-color: transparent;
+    
+}
+
+.cd:hover
+{
+    transform: translate(5px,-15px);
+   
+} 
+
+.cd p
+{
+    display: block;
+    overflow: hidden;
+}
+
+.collection
+{
+        width: 100%;
+        height: auto;
+        padding-left: 40px;
+}
+
+.animation
+{
+    width: 100%;
+   height:auto;
+   
+}
+
+
+.contact 
+{
+    width: 100%;
+    height:auto;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.contact form
+{
+    padding: 10px; 
+    padding-bottom: 10px;   
+    width: auto;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+}
+
+.contact form input
+{
+      
+    width: 100%;
+    background-color: transparent;
+     padding: 20px;
+     margin-right: 20px;
+     border: none;
+     outline: none;
+     color: aliceblue;
+     border-bottom: 1px solid rgb(169, 253, 190);
+
+}
+
+.contact form p
+{
+    color: rgb(196, 255, 211);
+    font-size: 130%;
+}
+
+.contact textarea
+{
+    border: none;
+    outline: none;
+    color: aliceblue;
+    background-color: transparent;
+    width: 95%;
+    border-bottom: 1px solid rgb(165, 255, 192);
+}
+
+input
+{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(179, 253, 185);
+}
+
+.contact button
+{
+font-size: 20px;
+text-align: center;
+border-radius: 20px;
+border:none;
+outline: none;
+width: 50%;
+height: 60%;
+line-height:10%;
+background-color: transparent;
+border-bottom: 1px solid rgb(203, 255, 206);
+color: beige;
+font-family: 'Times New Roman';
+
+}
+button:hover {
+
+                background-color: rgb(175, 252, 188);   
+                color: rgb(1, 22, 6); 
+                box-shadow: 3px 3px 5px rgba(73, 73, 73, 0.349);
+                transform: translate(10px,-5px);
+                cursor: pointer;
+}   
+
+.contact form a{
+    text-decoration: none;
+    color: rgb(175, 252, 188);   
+    font-size: 100%;
+  
+}
+
+.contact form a:hover
+{
+    color: rgb(255, 2, 2);
+   text-decoration: none;
+  text-shadow: 3px 3px 3px rgba(255, 3, 3, 0.37);
+   
+}
+
+
+form
+{
+    padding-bottom: 10px;
+    /* padding-top: 10px; */
+    margin-top: 10px;
+}
+
+.btn:hover{
+    background-color: rgb(221, 253, 222);
+}
+
+/* @keyframes text1 {
+                        0%
+                        {
+                         
+                            background-color: rgba(245, 179, 179, 0.815); */
+                            /* background-image: linear-gradient( to left, #aecfee,#949de9); */
+                        /* } */
+/* 
+                        50%
+                        {
+                           
+                            background-color: rgba(245, 179, 242, 0.726);
+                            
+                        }
+                        100%
+                        {
+                           
+                            background-color: rgba(179, 207, 245, 0.575);
+                           
+                        }
+} */
+/* .animation h1
+{
+        position: absolute;
+    font-size: 60px;
+    animation-name: text;
+    animation-duration: 8s;
+    font-family: 'DM Serif Display', serif;
+    animation-iteration-count: infinite;
+    margin-top: 10%;
+    margin-left: 25%;
+} */
+/* 
+@keyframes text {
+                        0%
+                        {
+                            font-size: 60px;
+                            color: firebrick;
+                            top:300px;
+                           
+                            
+                        }
+
+                        50%
+                        {
+                            font-size: 80px;
+                            color: rgb(70, 3, 66);
+                          
+                            top:200px ;
+                        }
+                        100%
+                        {
+                            font-size: 100px;
+                            color: rgb(9, 41, 56);
+                            
+                            top:100px;
+                        }
+} */
